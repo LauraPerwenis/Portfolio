@@ -52,12 +52,60 @@
       color: $DustyRose100;
     }
 
+    .CVDropdownButton.ant-dropdown-open {
+      background-color: #9B6D38;
+    }
+
     &_CVButton {
       @include buttonColor($Orange100);
+      width: 104px;
       font-weight: 500;
       gap: 12px;
       box-shadow: 0 4px 6px rgba(77, 128, 147, 0.25);
       padding: 6px 16px;
+    }
+  }
+}
+
+.CVDropdownButton {
+  transition-delay: 0.2s;
+
+  &:hover {
+    transition-delay: 0s;
+  }
+
+  &_Dropdown {
+    position: relative;
+    width: 82px;
+    display: grid;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: $Beige100;
+    border: 3px solid #9B6D38;
+    padding: 8px;
+    margin-top: -12px;
+
+    &:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: -6px;
+      left: -3px;
+      width: 104px;
+      height: 20px;
+      background-color: #9B6D38;
+    }
+
+    a {
+      font-weight: 400;
+      font-size: 24px;
+      color: #9B6D38;
+
+      &:hover {
+        color: #d59f64;
+      }
     }
   }
 }

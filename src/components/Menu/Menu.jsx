@@ -2,7 +2,9 @@ import React from "react"
 import { Link } from "react-scroll"
 import "./Menu.scss"
 import { ReactComponent as DownloadIcon } from "./../../Icons/DownloadIcon.svg"
-import CV from "../../Data/CV_Laura_Perwenis.pdf"
+import CV_ENG from "../../Data/CV_Laura_Perwenis_ENG.pdf"
+import CV_PL from "../../Data/CV_Laura_Perwenis_PL.pdf"
+import { Dropdown } from "antd"
 
 const Menu = () => {
   const tabs = ["Home", "Projects", "Contact"]
@@ -22,12 +24,25 @@ const Menu = () => {
             {tab}
           </Link>
         ))}
-        <a href={CV} target="_blank">
+        <Dropdown
+          className="CVDropdownButton"
+          dropdownRender={() => (
+            <div className="CVDropdownButton_Dropdown">
+              <a href={CV_ENG} target="_blank">
+                ENG
+              </a>
+              <a href={CV_PL} target="_blank">
+                PL
+              </a>
+            </div>
+          )}
+          placement="bottom"
+        >
           <button className="Menu_Navigation_CVButton">
             <DownloadIcon />
             CV
           </button>
-        </a>
+        </Dropdown>
       </nav>
     </div>
   )
