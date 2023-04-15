@@ -16,7 +16,7 @@ const projectsList = [
     twoVersions: false,
     caseStudies: {
       mobile:
-        "https://drive.google.com/file/d/1RCt6i2cZnzK0bJLRd3WOoAunhrX1FF7W/view?usp=share_link",
+        "https://drive.google.com/file/d/1LSmJKDY_ehe_aam_js2qkjAcHIzxlfUR/view?usp=share_link",
     },
     figmaLinks: {
       mobile:
