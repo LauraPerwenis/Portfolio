@@ -1,0 +1,18 @@
+
+.App {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 180px auto;
+
+  &_ConfettiBar {
+    filter: blur(5px);
+    background-image: url("./Images/ConfettiBar.svg");
+    background-repeat: repeat;
+  }
+
+  &_Body {
+    &_Content {
+      margin: 120px 360px 0 180px;
+    }
+  }
+}

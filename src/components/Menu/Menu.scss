@@ -1,0 +1,63 @@
+@import '../../Scss/variables.scss';
+@import '../../Scss/mixins.scss';
+
+.Menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 180px);
+  height: 108px;
+  font-size: 24px;
+  font-weight: 500;
+  position: fixed;
+  z-index: 100;
+  background-color: $Beige100;
+  padding-left: 5px;
+
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    z-index: 100;
+    width: 100%;
+    height: 12px;
+    background-color: $Beige100;
+    filter: blur(2px);
+  }
+
+  &_Navigation {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding-right: 180px;
+
+    &_Link {
+      cursor: pointer;
+      transition: opacity linear .2s;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+
+    &_Home.active {
+      color: $Blue100;
+    }
+
+    &_Projects.active {
+      color: $Pistachio100;
+    }
+
+    &_Contact.active {
+      color: $DustyRose100;
+    }
+
+    &_CVButton {
+      @include buttonColor($Orange100);
+      font-weight: 500;
+      gap: 12px;
+      box-shadow: 0 4px 6px rgba(77, 128, 147, 0.25);
+      padding: 6px 16px;
+    }
+  }
+}

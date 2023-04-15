@@ -1,0 +1,137 @@
+@import '../../Scss/variables.scss';
+@import '../../Scss/mixins.scss';
+
+.ProjectCard {
+  display: grid;
+  padding: 60px 0 240px;
+
+  &_Header {
+    display: grid;
+    grid-template-columns: 600px 285px;
+    justify-content: space-between;
+    align-items: center;
+
+    &_Description {
+      &--decorated {
+        font-weight: 600;
+        color: $Pistachio100;
+      }
+    }
+
+    &_Buttons {
+
+      button {
+        width: 284px;
+        height: 64px;
+      }
+
+      .CaseStudyDropdownButton.ant-dropdown-open {
+        //border-radius: 10px 10px 0 0;
+        background-color: #829C9D;
+      }
+
+      .FigmaDropdownButton.ant-dropdown-open {
+        //border-radius: 10px 10px 0 0;
+        background-color: #eae7e6;
+      }
+
+      &_CaseStudyButton, .CaseStudyDropdownButton {
+        margin-bottom: 24px;
+      }
+
+      &_FigmaButton, .FigmaDropdownButton {
+        gap: 8px;
+        @include buttonColor($Beige100);
+      }
+
+    }
+  }
+
+  &_Screanshots {
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    margin-top: 112px;
+    background-color: $Pistachio100;
+    border-radius: 40px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+    &:after {
+      content: url("../../Images/ConfettiSlice.svg");
+      position: absolute;
+      top: -45px;
+      right: -45px;
+      filter: blur(1px);
+    }
+  }
+}
+
+.CaseStudyDropdownButton, .FigmaDropdownButton {
+  transition-delay: 0.2s;
+
+  &:hover {
+    transition-delay: 0s;
+  }
+
+  &_Dropdown {
+    position: relative;
+    width: 250px;
+    display: grid;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: $Beige100;
+    border: 3px solid #829C9D;
+    padding: 14px;
+    margin-top: -12px;
+
+    &:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: -6px;
+      left: -3px;
+      width: 284px;
+      height: 20px;
+      background-color: #829C9D;
+    }
+
+    a {
+      font-weight: 400;
+      font-size: 24px;
+      color: #829C9D;
+
+      &:hover {
+        color: $Pistachio100;
+      }
+    }
+  }
+}
+
+.FigmaDropdownButton {
+  &_Dropdown {
+    width: 252px;
+    border: 2px solid $Grey100;
+    background-color: #eae7e6;
+
+    &:before {
+      left: -2px;
+      width: 280px;
+      background-color: #eae7e6;
+      border-left: 2px solid $Grey100;
+      border-right: 2px solid $Grey100;
+    }
+
+    a {
+      color: $Grey100;
+
+      &:hover {
+        color: #A0A0A0;
+      }
+    }
+  }
+}

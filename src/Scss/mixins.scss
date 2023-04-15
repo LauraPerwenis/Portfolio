@@ -1,0 +1,48 @@
+@import "variables.scss";
+
+@mixin center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin buttonColor($color: $Pistachio100) {
+  background-color: $color;
+
+  @if $color == $Beige100 {
+    color: $Grey100;
+    border: 2px solid $Grey100;
+  }
+
+  &:hover {
+    @if $color == $Pistachio100 {
+      background-color: #829C9D;
+    } @else if ($color == $DustyRose100) {
+      background: #99767C;
+    } @else if ($color == $Orange100) {
+      background: #9B6D38;
+    } @else if ($color == $Beige100) {
+      background: #eae7e6;
+    }
+  }
+
+  &:active {
+    @if $color == $Pistachio100 {
+      background-color: #688385;
+    } @else if ($color == $DustyRose100) {
+      background: #87656B;
+    } @else if ($color == $Orange100) {
+      background: #8C5C25;
+    } @else if ($color == $Beige100) {
+      background: #cbc7c6;
+    }
+  }
+}
+
+@mixin decoratedText($color: $DustyRose100) {
+  font-size: 72px;
+  position: relative;
+  font-family: Caveat, sans-serif;
+  font-weight: 700;
+  color: $color;
+}

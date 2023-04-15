@@ -1,0 +1,65 @@
+@import "../../Scss/variables.scss";
+@import "../../Scss/mixins.scss";
+
+
+.ContactSection {
+  display: grid;
+  justify-content: center;
+  padding: 180px 0;
+
+  h2, h4 {
+    text-align: center;
+  }
+
+  &_ContactMe {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 64px;
+  }
+
+  &_Email {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 34px;
+
+    button {
+      @include buttonColor($DustyRose100);
+    }
+  }
+
+  &_Details, &_DetailsButton {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+
+  &_Details {
+    font-size: 24px;
+    color: $Grey100;
+    transition: opacity linear .2s;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  &_LetsBring {
+    margin-top: 100px;
+    font-weight: 400;
+    font-size: 46px;
+
+    span {
+      @include decoratedText($Blue100);
+      font-size: 62px;
+      margin-right: 14px;
+
+      &:after {
+        content: url("./../../Images/BentLine2.svg");
+        position: absolute;
+        bottom: -20px;
+        left: -6px;
+      }
+    }
+  }
+}

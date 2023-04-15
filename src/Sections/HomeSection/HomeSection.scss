@@ -1,0 +1,53 @@
+@import "../../Scss/variables.scss";
+@import "../../Scss/mixins.scss";
+
+
+.HomeSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: calc(100vh - 120px);
+
+  &_WelcomeSection {
+    max-width: 415px;
+
+    &_Hi {
+      span {
+        @include decoratedText;
+
+        &:after {
+          content: url("./../../Images/BentLine1.svg");
+          position: absolute;
+          bottom: -32px;
+          left: -6px;
+        }
+      }
+    }
+
+    .blue {
+      color: $Blue100;
+      font-weight: 400;
+    }
+  }
+
+  &_Image {
+    position: relative;
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 400px;
+      height: 600px;
+      background-color: $Beige100;
+      opacity: 0.2;
+      filter: blur(40px);
+    }
+
+    img, &:after {
+      border-radius: 25px;
+    }
+
+  }
+}
