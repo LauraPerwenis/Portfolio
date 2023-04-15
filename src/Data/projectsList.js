@@ -15,7 +15,8 @@ const projectsList = [
     screenshot: onceUponATimeScreens,
     twoVersions: false,
     caseStudies: {
-      mobile: "",
+      mobile:
+        "https://drive.google.com/file/d/1RCt6i2cZnzK0bJLRd3WOoAunhrX1FF7W/view?usp=share_link",
     },
     figmaLinks: {
       mobile:
@@ -32,7 +33,8 @@ const projectsList = [
     screenshot: WaterMeScreens,
     twoVersions: false,
     caseStudies: {
-      mobile: "",
+      mobile:
+        "https://drive.google.com/file/d/1GQjuvP8k1NIyUNbctomwRN990b5iV2Wh/view?usp=share_link",
     },
     figmaLinks: {
       mobile:
@@ -47,7 +49,8 @@ const projectsList = [
     screenshot: SpecDetailingScreens,
     twoVersions: false,
     caseStudies: {
-      desktop: "",
+      desktop:
+        "https://drive.google.com/file/d/19fOVQTUh0SVREDP4Hq9blUNUTw3gM5mk/view?usp=share_link",
     },
     figmaLinks: {
       desktop:
@@ -62,8 +65,10 @@ const projectsList = [
     screenshot: OutdoScreens,
     twoVersions: true,
     caseStudies: {
-      desktop: "",
-      mobile: "",
+      desktop:
+        "https://drive.google.com/file/d/1tjZZDNGZMOw5CE_wFp_pF9sSqeAqJuZD/view?usp=share_link",
+      mobile:
+        "https://drive.google.com/file/d/1daBZRpynpBq-13nHQW81Q6ABzdL5TT_E/view?usp=share_link",
     },
     figmaLinks: {
       desktop:
@@ -81,7 +86,7 @@ const projectsList = [
     twoVersions: false,
     caseStudies: {
       desktop:
-        "https://drive.google.com/file/d/1m_Hcjijf1H5B4VTSn4T9nT4MBX329MC_/view?usp=sharing",
+        "https://drive.google.com/file/d/1m_Hcjijf1H5B4VTSn4T9nT4MBX329MC_/view?usp=share_link",
     },
     figmaLinks: {
       desktop:
