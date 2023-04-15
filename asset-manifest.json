@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.7a51e2e0.css",
+    "main.js": "/portfolio/static/js/main.9f5dedcb.js",
+    "static/media/CV_Laura_Perwenis_PL.pdf": "/portfolio/static/media/CV_Laura_Perwenis_PL.8e5aea4f9038462abafc.pdf",
+    "static/media/CV_Laura_Perwenis_ENG.pdf": "/portfolio/static/media/CV_Laura_Perwenis_ENG.b97cd8117b60fe55b071.pdf",
+    "static/media/OutdoScreens.png": "/portfolio/static/media/OutdoScreens.76ef38d343accf96d8fd.png",
+    "static/media/ProfileImage.jpg": "/portfolio/static/media/ProfileImage.fd425f2b849166752bc7.jpg",
+    "static/media/GlowskinScreens.png": "/portfolio/static/media/GlowskinScreens.45dac58f8728bfc6b519.png",
+    "static/media/SpecDetailingScreens.png": "/portfolio/static/media/SpecDetailingScreens.37d156dad1079cdcaed1.png",
+    "static/media/OnceUponATimeScreens.png": "/portfolio/static/media/OnceUponATimeScreens.7560ef032428104359c0.png",
+    "static/media/WaterMeScreens.png": "/portfolio/static/media/WaterMeScreens.09775f5efe08ee6a590e.png",
+    "static/media/ConfettiBar.svg": "/portfolio/static/media/ConfettiBar.8e94152d691e2e8c9aa1.svg",
+    "static/media/ConfettiSlice.svg": "/portfolio/static/media/ConfettiSlice.626934788f4fc3c0c825.svg",
+    "static/media/FigmaIcon.svg": "/portfolio/static/media/FigmaIcon.15af44b03341fc8eb952cc532aca0ec4.svg",
+    "static/media/PhoneIcon.svg": "/portfolio/static/media/PhoneIcon.726015814e3a0300b6a22486d91a8c04.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/DownloadIcon.svg": "/portfolio/static/media/DownloadIcon.5ebeef8b0a7336564730c003c3dc3bfa.svg",
+    "static/media/EnvelopeIcon.svg": "/portfolio/static/media/EnvelopeIcon.65b5cd4bd452f4254b46e0f06ac9b11e.svg",
+    "static/media/BentLine2.svg": "/portfolio/static/media/BentLine2.e0f3566903650fde07e8.svg",
+    "static/media/BentLine1.svg": "/portfolio/static/media/BentLine1.179b314823b4c0716186.svg",
+    "main.7a51e2e0.css.map": "/portfolio/static/css/main.7a51e2e0.css.map",
+    "main.9f5dedcb.js.map": "/portfolio/static/js/main.9f5dedcb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a51e2e0.css",
+    "static/js/main.9f5dedcb.js"
+  ]
+}
