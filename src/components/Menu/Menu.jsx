@@ -2,15 +2,15 @@ import React from "react"
 import { Link } from "react-scroll"
 import "./Menu.scss"
 import { ReactComponent as DownloadIcon } from "./../../Icons/DownloadIcon.svg"
-import CV_ENG from "../../Data/CV_Laura_Perwenis_ENG.pdf"
-import CV_PL from "../../Data/CV_Laura_Perwenis_PL.pdf"
+import CV_ENG from "../../Data/CV_Laura_Stachelek_ENG.pdf"
+import CV_PL from "../../Data/CV_Laura_Stachelek_PL.pdf"
 import { Dropdown } from "antd"
 
 const Menu = () => {
   const tabs = ["Home", "Projects", "Contact"]
   return (
     <div className="Menu">
-      <span>Laura Perwenis</span>
+      <span>Laura Stachelek</span>
       <nav className="Menu_Navigation">
         {tabs.map((tab) => (
           <Link

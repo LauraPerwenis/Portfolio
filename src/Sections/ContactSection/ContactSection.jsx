@@ -9,13 +9,13 @@ const ContactSection = () => (
     <h2>Did you like my work?</h2>
     <h4 className="ContactSection_ContactMe">Contact me!</h4>
     <div className="ContactSection_Email">
-      <a className="ContactSection_Details" href="mailto:laura.perwenis@gmail.com">
+      <a className="ContactSection_Details" href="mailto:laura.stachelek@gmail.com">
         <EnvelopeIcon />
-        laura.perwenis@gmail.com
+        laura.stachelek@gmail.com
       </a>
       <a
         className="ContactSection_DetailsButton"
-        href="mailto:laura.perwenis@gmail.com"
+        href="mailto:laura.stachelek@gmail.com"
       >
         <button>Send e-mail</button>
       </a>
